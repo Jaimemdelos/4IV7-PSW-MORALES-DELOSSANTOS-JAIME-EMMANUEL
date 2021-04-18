@@ -1,0 +1,14 @@
+*
+    html, body{
+   background: url(../img/Fondodeestrellas.jpg);
+   background-repeat: no-repeat;
+   color:#fff;
+   background-size: 100%;
+}
+nav{
+    border: 2px solid rgb(100,122,12);
+    margin: 1rem;
+    border-radius: 10px;
+    padding:1rem;
+} 
+

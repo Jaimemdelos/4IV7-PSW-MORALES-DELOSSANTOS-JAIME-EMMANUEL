@@ -6,20 +6,30 @@
 
 .td_down{
     align-items:center;
-    justify-content:centerr;
+    justify-content:center;
     width:150;
 }
 
 .input_text{
     size:12;
     border-width:2px;
-    border-style:sold;
+    border-style:solid;
     font-size:10;
     color:#5214ff;
     letter-spacing:3px;
+    align-items: center;
+    justify-content: center;
+    letter-spacing:3px;
+    font-size: 10px;
 }
 
 *{
     background-color:#85deff;
     color:#5214ff;
+}
+p{
+    font-size: 16px;
+    align-items:center;
+    justify-content: center;
+    color:#452844;
 }
