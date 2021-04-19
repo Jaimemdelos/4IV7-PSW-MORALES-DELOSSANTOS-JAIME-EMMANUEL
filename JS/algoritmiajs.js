@@ -57,6 +57,39 @@ function problema2(){
 
 //problema 3
 
+function problema(){
 
+var p3_input = document.querySelector('#p3-input').value;
+    
 
+    
+    if(patron.test(p3_input) == false || /[^ABCDEFGHIJKLMNÑOPQRSTUVWXYZ,]/g.test(p3_input) == true){
+        document.querySelector('#p3-output').textContent = "ERROR";
+    }
+    else{
+        
 
+        var p3= p3_input.split(','); 
+
+        var numberi = [];
+//Aplicacion de la funcion anonima
+
+        p3.forEach(function (palabras, index){
+            var palabras = Array.from(palabras);
+            var letras = [];
+            
+            palabra.forEach(function (letra, index){
+                if(letras.includes(letra) == true){
+                }else{
+                    letras.push(letra);
+                    
+                }
+            });
+
+            numberi.push(letras.length);
+
+        });
+        var patron = /[ABCDEFGHIJKLMNÑOPQRSTUVWXYZ,]/g;
+//numberi
+    }
+}
