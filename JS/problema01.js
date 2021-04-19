@@ -10,12 +10,16 @@ function validarn(e){
 
 function interes(){
     var valor = document.formulario.cantidad.value;
+    var resultado = parseInt(valor);
     var resultado = resultado*0.02;
     var total = resultado + interes;
     
     document.formulario.sueldoti.value="$"+total;
 }
 
-function borrar{
+function borrar(){
+    document.formulario.sueldoti.value ="";
+    document.formulario.cantidad.value = "";
+    
     
 }
